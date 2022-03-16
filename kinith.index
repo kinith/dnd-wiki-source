@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Your Content</name>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="kinith.index" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith.index" />
 		</update>
 	</info>
