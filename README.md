@@ -5,15 +5,15 @@ index url: https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/
 
 ---
 
-##Note
+## Note
 All additions have the Kinith prefix for easier identification.
 
-##Added Races
+## Added Races
 - Arachne
 - Kitsune
 - Marilith
 - Oni
 - Pixie
 
-##Added Background
+## Added Background
 - Custom
