@@ -16,8 +16,5 @@
 		<file name="oni.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/oni.xml" />
 		<file name="marilith.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/marilith.xml" />
 		<file name="pixie.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/pixie.xml" />
-
-		<!-- Backgrounds -->
-		<file name="custom.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/backgrounds/custom.xml" />
 	</files>
 </index>

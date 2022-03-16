@@ -14,6 +14,3 @@ All additions have the Kinith prefix for easier identification.
 - Marilith
 - Oni
 - Pixie
-
-## Added Background
-- Custom
