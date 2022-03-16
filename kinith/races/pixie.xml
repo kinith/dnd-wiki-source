@@ -4,7 +4,7 @@
         <name>Kinith Pixie</name>
         <description>-</description>
         <author>Kinith</author>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="pixie.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/pixie.xml" />
         </update>
     </info>
@@ -145,7 +145,7 @@
                 The children of the Feywild have a natural gift for the outside world. You are proficient in the Nature skill.
             </p>
         </description>
-        <sheet>
+        <sheet display="false">
             <description>
                 The children of the Feywild have a natural gift for the outside world. You are proficient in the Nature skill.
             </description>

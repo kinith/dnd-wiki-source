@@ -4,7 +4,7 @@
         <name>Kinith Kitsune</name>
         <description>-</description>
         <author>Kinith</author>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="kitsune.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/kitsune.xml" />
         </update>
     </info>
@@ -84,8 +84,8 @@
             <set name="names" type="male">Alven, Amnon, Ander, Cedric, Flint, Gimble, Ivellios, Lindal, Mival, Patrin, Romero, Skamos, Soveliss, Warryn, Wellby</set>
             <set name="names" type="female">Amber, Arveene, Bai, Criella, Diesa, Ellywick, Farideh, Jasmal, Kithri, Meriele, Minna, Xanaphia, Yua</set>
             <set name="names" type="traditional">Ambergrass, Beetlesong, Cedarflower, Feathercloud, Frostwing, Goldspring, Honeystar, Jellybeam, Moondrop, Oakwind, Silverbell, Snowmist, Sugardust, Sundew, Willowkiss</set>
-            <set name="height" modifier="2d4">0'5"</set>
-            <set name="weight" modifier="1d4">0.5 lb.</set>
+            <set name="height" modifier="2d8">4'5"</set>
+            <set name="weight" modifier="1d8">75 lb.</set>
         </setters>
         <rules>
             <stat name="charisma" value="2"/>

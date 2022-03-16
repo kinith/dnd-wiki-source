@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-        <name>Custom</name>
+        <name>Kinith Custom</name>
         <description>When no other background combination works</description>
         <author>-</author>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="custom.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/backgrounds/custom.xml" />
         </update>
     </info>
-    <element name="Custom" type="Background" source="" id="ID_KINITH_BACKGROUND_CUSTOM">
+    <element name="Kinith Custom" type="Background" source="" id="ID_KINITH_BACKGROUND_CUSTOM">
         <description>
             <p>When no other background combination works</p>
             <p>
@@ -19,9 +19,6 @@
             </p>
             <div element="ID_KINITH_BACKGROUND_CUSTOM_CUSTOM" />
         </description>
-        <setters>
-            <set name="sourceUrl">https://www.dandwiki.com/wiki/Witch_Hunter_(5e_Background)</set>
-        </setters>
         <rules>
             <select type="Proficiency" name="Skill Proficiency (Custom)" supports="Skill" number="2"/>
             <select type="Proficiency" name="Tool Proficiency, (Custom)" supports="Tool" />
