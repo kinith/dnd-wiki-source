@@ -4,7 +4,7 @@
         <name>Kinith Arachne</name>
         <description>-</description>
         <author>Kinith</author>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="arachne.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/arachne.xml" />
         </update>
     </info>
@@ -76,6 +76,7 @@
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
             <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_MONSTROUS_NATURE" />
             <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_SPIDER_WALK" />
+            <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_POISON_RESISTANCE" />
             <grant type="Language" id="ID_LANGUAGE_COMMON" />
             <grant type="Language" id="ID_LANGUAGE_UNDERCOMMON" />
         </rules>
@@ -106,6 +107,21 @@
         </sheet>
         <rules>
             <stat name="innate speed:climb" value="30" bonus="base"/>
+        </rules>
+    </element>
+    <element name="Poison Resistance" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_POISON_RESISTANCE">
+        <description>
+            <p>
+                You have advantage on saving throws against being poisoned, and you have resistance against poison damage.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You have advantage on saving throws against being poisoned, and you have resistance against poison damage.
+            </description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON"/>
         </rules>
     </element>
 </elements>
