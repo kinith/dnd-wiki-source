@@ -4,7 +4,7 @@
         <name>Kinith Oni</name>
         <description>-</description>
         <author>Kinith</author>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="oni.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/oni.xml" />
         </update>
     </info>
@@ -14,10 +14,10 @@
             <p class="flavor">
                 "Sanzo was transfixed by the beauty of the maiden in front of him, so much so that he did not notice that
                 the sake in his cup had become muddy water, or that the magnificent castle around him was fading away like
-                an ink painting submerged in water.<br />
+                an ink painting submerged in water.<br /><br />
                 He only noticed when the horns poked up from the maiden's forehead and the smile she had so carefully hidden
-                throughout his visit, revealed a row of sharp teeth.<br />
-                And by then it was too late."<br /><br />
+                throughout his visit, revealed a row of sharp teeth.<br /><br />
+                And by then it was too late."<br />
                 -A cautionary tale to a young samurai
             </p>
 

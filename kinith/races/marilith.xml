@@ -4,7 +4,7 @@
         <name>Kinith Marilith</name>
         <description>-</description>
         <author>Kinith</author>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="marilith.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/marilith.xml" />
         </update>
     </info>
@@ -12,7 +12,7 @@
     <element name="Kinith Marilith" type="Race" source="Kinith" id="ID_RACE_KINITH_MARILITH">
         <description>
             <p class="flavor">
-                We tried to close the portal once the Fiends started pouring out of it, the Knights held the line against the
+                "We tried to close the portal once the Fiends started pouring out of it, the Knights held the line against the
                 beasts while the cultist who summoned the creatures were being slaughtered by the frenzied beasts they sought
                 to control. I urgently looked through the spell book, hoping to find the command word that would close the portal,
                 to end the nightmare before they demons overran the village. The sound of the knight's combat was deafening, they
@@ -23,15 +23,15 @@
                 hardened knights to little more than piles of gore, even their plate mail could not stop the whirlwind of blades.
                 The ranks had been broken, and on occasion from the corner of my eye, I'd catch a glance of a serpent's tail before
                 it vanished. Hell itself had descended upon us, and when I uttered the phrase that closed the portal, something
-                terrifying dawned on me. I had just closed the only door that could return the creature back to its home...<br /><br />
+                terrifying dawned on me. I had just closed the only door that could return the creature back to its home..."<br />
                 — Unknown
             </p>
             <p class="flavor">
-                Terrible to behold, a marilith has the lower body of a great serpent and the upper torso of a humanoid female with six arms.
+                "Terrible to behold, a marilith has the lower body of a great serpent and the upper torso of a humanoid female with six arms.
                 Wielding a wicked blade in each of its six hands, a marilith is a devastating foe that few can match in battle. These demons
                 possess keen minds and a finely honed sense of tactics, and they are able to lead and unite other demons in common cause.
                 Mariliths are often encountered as captains at the head of a demonic horde, where they embrace any opportunity to rush
-                headlong into battle.<br /><br />
+                headlong into battle."<br />
                 - Monster Manual
             </p>
 

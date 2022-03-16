@@ -4,7 +4,7 @@
         <name>Kinith Pixie</name>
         <description>-</description>
         <author>Kinith</author>
-        <update version="0.0.2">
+        <update version="0.0.3">
             <file name="pixie.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/pixie.xml" />
         </update>
     </info>
@@ -12,7 +12,7 @@
     <element name="Kinith Pixie" type="Race" source="Kinith" id="ID_RACE_KINITH_PIXIE">
         <description>
             <p class="flavor">
-                "Petal Gowns and Acorn Caps are so last summer!"<br /><br />
+                "Petal Gowns and Acorn Caps are so last summer!"<br />
                 - Rivergleam, Pixie Fashionista
             </p>
             <p class="flavor">

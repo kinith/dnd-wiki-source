@@ -3,8 +3,8 @@
     <info>
         <name>Kinith Custom</name>
         <description>When no other background combination works</description>
-        <author>-</author>
-        <update version="0.0.2">
+        <author>Kinith</author>
+        <update version="0.0.3">
             <file name="custom.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/backgrounds/custom.xml" />
         </update>
     </info>
@@ -19,6 +19,9 @@
             </p>
             <div element="ID_KINITH_BACKGROUND_CUSTOM_CUSTOM" />
         </description>
+        <setters>
+            <set name="short">2 Proficiencies, Tool, Language</set>
+        </setters>
         <rules>
             <select type="Proficiency" name="Skill Proficiency (Custom)" supports="Skill" number="2"/>
             <select type="Proficiency" name="Tool Proficiency, (Custom)" supports="Tool" />

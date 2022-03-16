@@ -4,7 +4,7 @@
         <name>Kinith Kitsune</name>
         <description>-</description>
         <author>Kinith</author>
-        <update version="0.0.2">
+        <update version="0.0.3">
             <file name="kitsune.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/kitsune.xml" />
         </update>
     </info>
@@ -121,13 +121,13 @@
     <element name="Illusion Sensitivity" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_ILLUSION_SENSITIVITY">
         <description>
             <p>
-                Illusions are your lifeblood. You have played with them since you were a child. You have advantage on Wisdom(Perception)
+                Illusions are your lifeblood. You have played with them since you were a child. You have advantage on Wisdom (Perception)
                 checks when attempting to see through the illusion.
             </p>
         </description>
         <sheet>
             <description>
-                Illusions are your lifeblood. You have played with them since you were a child. You have advantage on Wisdom(Perception)
+                Illusions are your lifeblood. You have played with them since you were a child. You have advantage on Wisdom (Perception)
                 checks when attempting to see through the illusion.
             </description>
         </sheet>
