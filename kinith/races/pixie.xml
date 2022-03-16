@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Kinith Pixie</name>
+        <description>-</description>
+        <author>Kinith</author>
+        <update version="0.0.1">
+            <file name="pixie.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/pixie.xml" />
+        </update>
+    </info>
+
+    <element name="Kinith Pixie" type="Race" source="Kinith" id="ID_RACE_KINITH_PIXIE">
+        <description>
+            <p class="flavor">
+                "Petal Gowns and Acorn Caps are so last summer!"<br /><br />
+                - Rivergleam, Pixie Fashionista
+            </p>
+            <p class="flavor">
+                Curious as cats and shy as deer, pixies go where they please. They like to spy on other creatures and are always
+                excited to make new friends; only a pixie's fear of being captured or attacked can contain its innate curiosity.
+                In truth those who wander through a pixie's glade might never see the creatures, perhaps hearing the occasional
+                giggle, gasp, or sigh. When seen, Pixies generally wear doublets or flowing gowns made of silk that sparkle in
+                the moonlight. Some dress in acorns, leaves, bark, and the pelts of tiny woodland beasts. They take great pride
+                in their regalia and beam with joy when they are complimented on their ensembles.
+            </p>
+
+            <h4>Physical Description</h4>
+            <p>
+                Being barely a foot tall, pixies resemble diminutive elves with gossamer wings like those of dragonflies or butterflies,
+                bright as the clear dawn and as luminous as the full moonrise. Their skin, hair, and eyes come in shades of natural colors
+                including the greens of the leaves and grass or the browns and bronzes of the dirt and trees and even spans into the
+                reds and yellows of autumn.
+            </p>
+
+            <h4>Magical Faerie Folk</h4>
+            <p>
+                With their innate power of invisibility, pixies rarely appear unless they wish to be seen. In the Feywild and on the
+                Material Plane, pixies etch patterns of frost on winter ponds and rouse the buds in springtime. They cause flowers to
+                sparkle with summer dew and color the leaves with the blazing hues of autumn.
+            </p>
+
+            <h4>Pixie Dust</h4>
+            <p>
+                When visible, a shower of sparkling dust follows in their wake like the glittering trail of a shooting star. A mere
+                sprinkle of pixie dust is said to be able to grant the power of flight, confuse a creature hopelessly, or send foes
+                into a magical slumber. Only pixies can use their dust to its full potential, but these fey are constantly sought
+                out by mages and monsters seeking to study or master their power.
+            </p>
+
+            <h4>Tiny Trickster</h4>
+            <p>
+                While the arrival of visitors piques their curiosity, pixies are too shy to reveal themselves at first. They study
+                the visitors from afar to gauge their temperament or play harmless tricks on them to measure their reactions. For example,
+                pixies might tie a dwarf's boot together, create illusions of strange creatures or treasures, or use dancing lights to
+                lead interlopers astray. If the visitors respond with hostility, the pixies give them a wide berth. If the visitors
+                are good-natured, the pixies are likely to be emboldened and more friendly. The fey might even emerge and offer to
+                guide their "guests" along with a safe route or invite them to a tiny yet satisfying feast prepared in their honor.
+            </p>
+
+            <h4>Opposed to Violence</h4>
+            <p>
+                Unlike their fey cousins, the sprites, most pixies abhor weapons and would sooner flee than get into a physical
+                altercation with an enemy.
+            </p>
+
+            <h4>Pixies as Adventurers</h4>
+            <p>
+                As an adventurer, you are expected to face many threats, and such encounters will usually require violence to resolve.
+                Think about why you, as a pixie, have chosen this path of necessary violence that few of your brothers and sisters have
+                taken before. Was there a threat to your family that you were forced to confront? Has your curiosity about the world led
+                you to partake in adventures that help you explore it? Are you simply and inscrutably a break in the mold?
+            </p>
+
+            <h4>Pixie Names</h4>
+            <p>
+                Traditional pixie names are no more than a combination of two pleasant-sounding nouns. It is sometimes impossible to
+                distinguish a male pixie from a female by name alone if the pixie is given a traditional name, though some trends and
+                patterns can be observed (for instance, names with "sun" are usually masculine and names with "moon" are usually feminine).
+                Pixies tend not to place as much emphasis on masculinity or femininity as most other races, and as such, a pixie parent
+                usually names his/her child with whatever name seems best, regardless of gender. Most pixie communities have no concept of
+                surnames. Pixies will sometimes name their children after the non-pixie wanderers or adventurers that they come across.
+                Though they favor names that sound whimsical, it isn't unheard of for a pixie to be named along the lines of Kildrak or Doug.
+            </p>
+            <ul class="unstyled">
+                <li><strong>Male Names:</strong> Alven, Amnon, Ander, Cedric, Flint, Gimble, Ivellios, Lindal, Mival, Patrin, Romero, Skamos, Soveliss, Warryn, Wellby</li>
+                <li><strong>Female Names:</strong> Amber, Arveene, Bai, Criella, Diesa, Ellywick, Farideh, Jasmal, Kithri, Meriele, Minna, Xanaphia, Yua</li>
+                <li><strong>Traditional Names:</strong> Ambergrass, Beetlesong, Cedarflower, Feathercloud, Frostwing, Goldspring, Honeystar, Jellybeam, Moondrop, Oakwind, Silverbell, Snowmist, Sugardust, Sundew, Willowkiss</li>
+            </ul>
+
+            <h4>PIXIE TRAITS</h4>
+            <p>
+                <span class="feature">Ability Score Increase.</span>Your Dexterity score increases by 2, and your Charisma score increases by 1.<br />
+                <span class="feature">Age.</span>Pixies do not age as normal races do, like most fey, they live indefinitely or until killed. Pixies reach maturity at 20.<br />
+                <span class="feature">Alignment.</span>Almost all pixies are good, with chaotic ideals of freedom. Simply having fun and enjoying life are typically at the forefront of their desires.<br />
+                <span class="feature">Size.</span>Pixies are like tiny elves, standing at barely a foot tall. Your size is Tiny.<br />
+                <span class="feature">Speed.</span>Your base walking speed is 15 feet. Your flying speed is 30 feet.<br />
+                <span class="feature">Darkvision.</span>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br />
+                <span class="feature">Fey Ancestry.</span>You have advantage on saving throws against being charmed, and magic can’t put you to sleep.<br />
+                <span class="feature">Nature's Child.</span>The children of the Feywild have a natural gift for the outside world. You are proficient in the Nature skill.<br />
+                <span class="feature">Invisibility.</span>Starting at 3rd level, you can cast the invisibility spell without needing a material component, choosing yourself as the target. You can cast invisibility this way three times, regaining your uses of the spell after finishing a long rest.<br />
+                <span class="feature">Wing Regrowth.</span>If your wings are cut, removed or injured, you regrow them at the end of a long rest.<br />
+                <span class="feature">Languages.</span>You can speak, read, and write Common, Elvish, and Sylvan.<br />
+            </p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="names" type="male">Alven, Amnon, Ander, Cedric, Flint, Gimble, Ivellios, Lindal, Mival, Patrin, Romero, Skamos, Soveliss, Warryn, Wellby</set>
+            <set name="names" type="female">Amber, Arveene, Bai, Criella, Diesa, Ellywick, Farideh, Jasmal, Kithri, Meriele, Minna, Xanaphia, Yua</set>
+            <set name="names" type="traditional">Ambergrass, Beetlesong, Cedarflower, Feathercloud, Frostwing, Goldspring, Honeystar, Jellybeam, Moondrop, Oakwind, Silverbell, Snowmist, Sugardust, Sundew, Willowkiss</set>
+            <set name="height" modifier="2d4">0'5"</set>
+            <set name="weight" modifier="1d4">0.5 lb.</set>
+        </setters>
+        <rules>
+            <stat name="dexterity" value="2"/>
+            <stat name="charisma" value="1"/>
+            <grant type="Size" id="ID_SIZE_TINY"/>
+            <stat name="innate speed" value="15" bonus="base"/>
+            <stat name="innate speed:fly" value="30" bonus="base"/>
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+            <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_FEY_ANCESTRY" />
+            <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_NATURES_CHILD" />
+            <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_INVISIBILITY" />
+            <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_WING_REGROWTH" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_LANGUAGE_ELVISH" />
+            <grant type="Language" id="ID_LANGUAGE_SYLVAN" />
+        </rules>
+    </element>
+
+    <element name="Fey Ancestry" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_FEY_ANCESTRY">
+        <description>
+            <p>
+                You have advantage on saving throws against being charmed, and magic can’t put you to sleep.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You have advantage on saving throws against being charmed, and magic can’t put you to sleep.
+            </description>
+        </sheet>
+    </element>
+    <element name="Nature's Child" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_NATURES_CHILD">
+        <description>
+            <p>
+                The children of the Feywild have a natural gift for the outside world. You are proficient in the Nature skill.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                The children of the Feywild have a natural gift for the outside world. You are proficient in the Nature skill.
+            </description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_NATURE" />
+        </rules>
+    </element>
+    <element name="Invisibility" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_INVISIBILITY">
+        <description>
+            <p>
+                Starting at 3rd level, you can cast the invisibility spell without needing a material component, choosing yourself as the target. You can cast invisibility this way three times, regaining your uses of the spell after finishing a long rest.
+            </p>
+        </description>
+        <sheet usage="3/Long Rest">
+            <description>
+                Starting at 3rd level, you can cast the invisibility spell without needing a material component, choosing yourself as the target. You can cast invisibility this way three times, regaining your uses of the spell after finishing a long rest.
+            </description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY" level="3"/>
+        </rules>
+    </element>
+    <element name="Wing Regrowth" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_WING_REGROWTH">
+        <description>
+            <p>
+                If your wings are cut, removed or injured, you regrow them at the end of a long rest.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                If your wings are cut, removed or injured, you regrow them at the end of a long rest.
+            </description>
+        </sheet>
+    </element>
+</elements>

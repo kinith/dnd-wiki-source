@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Kinith Oni</name>
+        <description>-</description>
+        <author>Kinith</author>
+        <update version="0.0.1">
+            <file name="oni.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/oni.xml" />
+        </update>
+    </info>
+
+    <element name="Kinith Oni" type="Race" source="Kinith" id="ID_RACE_KINITH_ONI">
+        <description>
+            <p class="flavor">
+                "Sanzo was transfixed by the beauty of the maiden in front of him, so much so that he did not notice that
+                the sake in his cup had become muddy water, or that the magnificent castle around him was fading away like
+                an ink painting submerged in water.<br />
+                He only noticed when the horns poked up from the maiden's forehead and the smile she had so carefully hidden
+                throughout his visit, revealed a row of sharp teeth.<br />
+                And by then it was too late."<br /><br />
+                -A cautionary tale to a young samurai
+            </p>
+
+            <h4>Physical Description</h4>
+            <p>
+                In their natural form, Oni look like demonic Ogres though are slightly smaller in stature. They have skin
+                that varies between hues of red, blue and white, and dark colored eyes with shining white pupils. They have
+                long wild hair that is usually black or grey; however, pure white hair is not an uncommon sight, especially
+                among the Pale Oni.
+            </p>
+            <p>
+                They have a pair of short ivory horns protruding out of their forehead that grow longer as they age and their teeth
+                and claws are jet black. The length of their horns is something Oni take pride in, to the point that even the
+                most disheveled Oni are known to polish their horns on a daily basis.
+            </p>
+            <p>
+                While Oni commonly take the form of other humanoid species to blend in, some Oni who live in harmony with other races,
+                tend to take on hybrid forms, still appearing to be part of their host race, except with their horns protruding
+                from their forehead, proudly visible to all.
+            </p>
+
+            <h4>History</h4>
+            <p>
+                At one time, the Oni guarded locations where the Spirit World overlapped with the Material Plane. Years on the
+                Material Plane, however, corrupted some of the Oni splintering them into the three sub-races. The Oni corrupted
+                by the material pleasures of the world became the Red Oni. The Oni corrupted by the power and knowledge of
+                the world became the Blue Oni. The Oni that remained guard, resisting the temptations became the White Oni.
+            </p>
+
+            <h4>Society</h4>
+            <p>
+                Most Oni live solitary lives in the wilderness, only interacting with other Oni in annual revels. These revels
+                are massive in size, sometimes containing up to two hundred Oni and the Oni are drawn to them like moths to a
+                candle, usually sensing the event weeks in advance. Violence is forbidden during these revels, and those that
+                violate this rule have their horns sawed short and are cast out in exile.
+            </p>
+            <p>
+                It is not uncommon for Oni to live among other races, whether secretly or not, due to their shapeshifting power,
+                however, they are mostly shunned from all but the most accepting settlements in their true forms until they prove
+                themselves to the inhabitants. Even after they are accepted, Oni rarely revert to their true form, preferring to
+                take on their hybrid appearance to keep others at ease, out of kindness... or for their own personal benefit.
+            </p>
+
+            <h4>Oni Names</h4>
+            <p>
+                Oni names are granted at their first level if they are Blue or Red Oni. Sometimes, the names are from a famous Oni,
+                or a powerful adversary, but often they are just words of meaning fused together in a drunken stupor.
+            </p>
+            <p>
+                Pale Oni do not have names in order to keep themselves distant from the Material Plane and usually address each
+                other and themselves as "this one". However, when traveling with companions from other races, the Oni will often
+                take a name that signifies a virtue or concept.
+            </p>
+            <ul class="unstyled">
+                <li><strong>Male Names:</strong> Waka, Douji, Akuran, Yorozu, Ibaraki, Jizou, Hachiman, Daikoku, Akuma</li>
+                <li><strong>Female Names:</strong> Hashi, Rairaku, Akane, Izami, Koyane, Sakuya, Benzen, Amematsu</li>
+                <li><strong>“Virtue” Names:</strong> Mu (Nothingness), Jingi (Honor), Hei-on (Tranquil), Daigo (Enlightenment), Satori (Comprehension), Waraku (Harmony), Enman (Perfection), Tsutome (Duty)</li>
+            </ul>
+
+            <h4>ONI TRAITS</h4>
+            <p>
+                <span class="feature">Ability Score Increase.</span>Your Constitution score increases by 2, and your Strength, Intelligence or Wisdom score increases by 1.<br />
+                <span class="feature">Age.</span>Oni reach maturity about the same time as humans do, but their aging slows down drastically after that. Most live to about 1000 years old.<br />
+                <span class="feature">Alignment.</span>Most oni are naturally evil. Their heightened sensitivity to the temptations of the Material Plane usually drives them to steal, fight and manipulate to get what they want. The raucous red oni are the most interested in simple pleasures, and tend towards chaotic alignments.. Their colder and calculating cousins, blue oni, tend towards lawful alignments. Pale oni are closer to the spiritual world than the rest of their kin, often trying to keep the balance between the spirit world and the material plane; as such, they tend towards the lawful neutral alignment. In some cases, a red or blue oni can overcome his or her natural tendencies and dedicate his or her life to good. Most of these oni keep strict moral codes to keep their wild natures in check.<br />
+                <span class="feature">Size.</span>Oni are a sizeable people, reaching heights from 7 and 8 feet tall by maturity and weigh between 280 and 340 pounds. Your size is Medium.<br />
+                <span class="feature">Speed.</span>Your base walking speed is 30 feet.<br />
+                <span class="feature">Darkvision.</span>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br />
+                <span class="feature">Shapechanger.</span> As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size changes. You can make yourself appear as a member of another race, though none of your game statistics change. You can’t duplicate the appearance of a creature you’ve never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren’t changed by this trait.<br />You stay in the new form until you use an action to revert to your true form or until you die.<br />
+                <span class="feature">Powerful Build.</span>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.<br />
+                <span class="feature">Yokai Resistance.</span>Thanks to the energy of the yokai, you have resistance to poison damage and advantage on saving throws against becoming poisoned.<br />
+                <span class="feature">Languages.</span>You can speak, read, and write Common and Undercommon.<br />
+            </p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="names" type="male">Waka, Douji, Akuran, Yorozu, Ibaraki, Jizou, Hachiman, Daikoku, Akuma</set>
+            <set name="names" type="female">Hashi, Rairaku, Akane, Izami, Koyane, Sakuya, Benzen, Amematsu</set>
+            <set name="names" type="virtue">Mu (Nothingness), Jingi (Honor), Hei-on (Tranquil), Daigo (Enlightenment), Satori (Comprehension), Waraku (Harmony), Enman (Perfection), Tsutome (Duty)</set>
+            <set name="height" modifier="2d8">6'5"</set>
+            <set name="weight" modifier="2d6">350 lb.</set>
+        </setters>
+        <rules>
+            <stat name="constitution" value="2"/>
+            <select type="Ability Score Improvement" name="Ability Score Increase, Oni" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM" />
+            <grant type="Size" id="ID_SIZE_MEDIUM"/>
+            <stat name="innate speed" value="30" bonus="base"/>
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+            <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_SHAPECHANGER" />
+            <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_POWERFUL_BUILD" />
+            <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_YOKAI_RESISTANCE" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_LANGUAGE_GIANT" />
+        </rules>
+    </element>
+
+    <element name="Shapechanger" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_SHAPECHANGER">
+        <description>
+            <p>
+                As an action, you can change your appearance and your voice. You determine the specifics of the changes, including
+                your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size
+                changes. You can make yourself appear as a member of another race, though none of your game statistics change. You
+                can’t duplicate the appearance of a creature you’ve never seen, and you must adopt a form that has the same basic
+                arrangement of limbs that you have. Your clothing and equipment aren’t changed by this trait.
+            </p>
+            <p>
+                You stay in the new form until you use an action to revert to your true form or until you die.
+            </p>
+        </description>
+        <sheet action="Action">
+            <description>
+                As an action, you can change your appearance and your voice. You determine the specifics of the changes, including
+                your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size
+                changes. You can make yourself appear as a member of another race, though none of your game statistics change. You
+                can’t duplicate the appearance of a creature you’ve never seen, and you must adopt a form that has the same basic
+                arrangement of limbs that you have. Your clothing and equipment aren’t changed by this trait.<br />
+                You stay in the new form until you use an action to revert to your true form or until you die.
+            </description>
+        </sheet>
+    </element>
+    <element name="Powerful Build" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_POWERFUL_BUILD">
+        <description>
+            <p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+        </description>
+        <sheet>
+            <description>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
+        </sheet>
+        <rules>
+            <grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+        </rules>
+    </element>
+    <element name="Yokai Resistance" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_YOKAI_RESISTANCE">
+        <description>
+            <p>Thanks to the energy of the yokai, you have resistance to poison damage and advantage on saving throws against becoming poisoned.</p>
+        </description>
+        <sheet>
+            <description>Thanks to the energy of the yokai, you have resistance to poison damage and advantage on saving throws against becoming poisoned.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON"/>
+        </rules>
+    </element>
+</elements>

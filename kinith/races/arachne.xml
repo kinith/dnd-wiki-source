@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Kinith Arachne</name>
+        <description>-</description>
+        <author>Kinith</author>
+        <update version="0.0.1">
+            <file name="arachne.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/arachne.xml" />
+        </update>
+    </info>
+
+    <element name="Kinith Arachne" type="Race" source="Kinith" id="ID_RACE_KINITH_ARACHNE">
+        <description>
+            <p class="flavor">
+                Pure-bred arachne are born between two arachne parents or a humanoid being graced/cursed with
+                the power of a spider goddess, while the more commonly found “hybrid” Arachne are born between an Arachne
+                and a non-Arachne humanoid. Arachne are powerful warriors and agile hunters, capable of operating in a wide
+                range of terrain but a fairly narrow climate. Their domineering presence on the battlefield is enough to
+                intimidate the hardiest of warriors, and they’re no stranger to a violent bloodbath. An Arachne is the bane
+                of unwary travellers and fledgeling adventurers. Others are vain but flattering, making their names as
+                diplomats or aristocrats. They are an ally’s greatest asset and an enemy’s worst nightmare.
+            </p>
+
+            <h4>Physical Description</h4>
+            <p>
+                Arachne are half-humanoid spider hybrids, with their lower body resembling that of a large eight-legged spider,
+                belonging to their arachne parent, and the upper body resembling their non-Arachne parent, whether they be human,
+                elf, dwarf, orc, or another. Arachne stand on at roughly 7 feet tall on average. Their spider’s half retains
+                the attributes of the species of spider they belong to. Commonly found arachne sub-species includes wolf spiders,
+                jumping spiders, and widow spiders. Arachne are much more likely to be female at birth, giving the impression
+                that all arachne are female when in reality male arachne are simply much rarer.
+            </p>
+
+            <h4>Society</h4>
+            <p>
+                Most arachne are solitary by nature and prefer living on their own, whether on the fringes of the city or
+                the depths of the wilderness. Most arachne are seen with fear and disgust and have become accustomed to
+                hostile met by strangers and travellers, developing a darker, more cynical world view. On the rare occasion,
+                an arachne will be met with hospitality and will live with other races in small villages serving as
+                wilderness guides, weavers, builders, and alchemists.
+            </p>
+
+            <h4>Arachne Names</h4>
+            <p>
+                Arachne claim a wide variety of names, usually pertaining to the non-arachne parent they belonged to, while
+                the pure-bred arachne usually refer to each other in their arachnid tongue, comprised of soft clicks and
+                chirps, with no actual meaning in Common. Pure-bred arachne are thus usually given nicknames by the other
+                races in common.
+            </p>
+
+            <h4>ARACHNE TRAITS</h4>
+            <p>
+                <span class="feature">Ability Score Increase.</span>Your Dexterity score increases by 2, and your Wisdom score increases by 1.<br />
+                <span class="feature">Age.</span>Arachne, much like spiders, mature quickly, becoming adults at the age of 2 or 3 and having lifespans comparable to humans'.<br />
+                <span class="feature">Alignment.</span>Arachne don't tend toward any particular alignment. The best and the worst are found among them.<br />
+                <span class="feature">Size.</span>Arachne can be up to 7-8 feet tall and almost as wide. Your size is Medium.<br />
+                <span class="feature">Speed.</span>Your base walking speed is 30 feet.<br />
+                <span class="feature">Darkvision.</span>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br />
+                <span class="feature">Horrific.</span>You gain proficiency in Intimidation.<br />
+                <span class="feature">Monstrous Nature.</span>Your creature type is considered to be both humanoid and monstrosity.<br />
+                <span class="feature">Spider Walk.</span>You have a climb speed equal to your walking speed. You can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.<br />
+                <span class="feature">Languages.</span>You can speak, read, and write Common and Undercommon.<br />
+            </p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="height" modifier="2d12">6'8"</set>
+            <set name="weight" modifier="2d4">150 lb.</set>
+        </setters>
+        <rules>
+            <stat name="dexterity" value="2"/>
+            <stat name="wisdom" value="1"/>
+            <grant type="Size" id="ID_SIZE_MEDIUM"/>
+            <stat name="innate speed" value="30" bonus="base"/>
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+            <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_MONSTROUS_NATURE" />
+            <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_SPIDER_WALK" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_LANGUAGE_UNDERCOMMON" />
+        </rules>
+    </element>
+
+    <element name="Monstrous Nature" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_MONSTROUS_NATURE">
+        <description>
+            <p>Your creature type is considered to be both humanoid and monstrosity.</p>
+        </description>
+        <sheet>
+            <description>
+                Your creature type is considered to be both humanoid and monstrosity.
+            </description>
+        </sheet>
+    </element>
+    <element name="Spider Walk" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_SPIDER_WALK">
+        <description>
+            <p>
+                You have a climb speed equal to your walking speed. You can climb difficult surfaces, including upside down
+                on ceilings, without needing to make an ability check.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You have a climb speed equal to your walking speed. You can climb difficult surfaces, including upside down
+                on ceilings, without needing to make an ability check.
+            </description>
+        </sheet>
+        <rules>
+            <stat name="innate speed:climb" value="30" bonus="base"/>
+        </rules>
+    </element>
+</elements>

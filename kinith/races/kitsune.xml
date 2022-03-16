@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Kinith Kitsune</name>
+        <description>-</description>
+        <author>Kinith</author>
+        <update version="0.0.1">
+            <file name="kitsune.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/kitsune.xml" />
+        </update>
+    </info>
+
+    <element name="Kinith Kitsune" type="Race" source="Kinith" id="ID_RACE_KINITH_KITSUNE">
+        <description>
+            <h4>Physical Description</h4>
+            <p>
+                Kitsune are a race of fey descendant magical foxes with an unusual power. Fur colors take on a wide range of colors,
+                from natural colors such as red, white, black, and brown to more magical, often darker blues, greens, yellows, and oranges.
+                Markings on their belly, muzzle, legs/feet, and tips of tails accent their main fur color, commonly a brighter version.
+                A Kitsune’s birth environment and variant type can hold sway to the color their fur takes on.
+            </p>
+            <p>
+                A Kitsune may also assume a humanoid appearance, often doing so when interacting with other humanoid races. Kitsune of any age
+                often have trouble hiding their tails and ears, opting to leave them visible as a marker of their race.
+            </p>
+            <p>
+                Hair color tends to matches their fur color, thickening during the winter months and thinning during the summer.
+            </p>
+            <p>
+                Eyes cover a large range of colors but commonly match the accent color of their fur.
+            </p>
+
+            <h4>History</h4>
+            <p>
+                The Kitsune are a long, fulfilled race of beings that once lived in the Feywilds, villages being found between the kingdoms
+                of the archfeys. Often built around the forest they so deeply cherished, the story and legends of the Kitsune people are
+                written into the ever aging trees themselves. with each passing generation the trees grow taller and so that generations
+                story can begin. This is not to say that their history is not written in books, when one of the sacred story trees falls,
+                the elder of the village is tasked to use the wood to create new books for the story of their people to be recorded in.
+            </p>
+            <p>
+                Long ago a group of Kitsune sought out the material plane, both to explore and call a new home. Coming to be known as
+                tricksters and adventurers, Kitsune as are prone to be drawn to towns and cities. Anywhere they can learn from travelers
+                and adventures and scratch that trick loving itch. Material plane villages do exist! Deep in forests hidden in the trees
+                and underbrush, these settlements will not be found easily if the residence do not wish to be seen. Those that earn the
+                trust of the local foxes will find themselves in a world of long standing culture and tradition and friends for life.
+            </p>
+            <p>
+                Being a race originally from the Feywilds, Kitsune are sometimes sought out by evil individuals, their tails filled
+                with power, making for excellent components to spells and potions.
+            </p>
+
+            <h4>Kitsune Names</h4>
+            <p>
+                A Kitsune will have at least two names at any time. The first is their true name and can be used to command the kitsune
+                to do anything. Willing to giving over their true name is a symbol of absolute trust. Their second name is a poetic or
+                literal name that describes one of their traits, professions, or simply a cultural name that the kitsune found amusing.
+                Although it's not unheard of to change their name, they tend to keep the first name they choose.
+            </p>
+            <ul class="unstyled">
+                <li><strong>Male Names:</strong> Han, Hiroto, Kirote, Mare, Renar, Kit, Sunny</li>
+                <li><strong>Female Names:</strong> Fenro, Kimone, Rain, Sinatsu, Renar, Kit, Sunny</li>
+            </ul>
+
+            <h4>KITSUNE TRAITS</h4>
+            <p>
+                <span class="feature">Ability Score Increase.</span>Your Charisma score increases by 2, and your Dexterity, Intelligence or Wisdom score increases by 1.<br />
+                <span class="feature">Age.</span>Kitsune reach adulthood after living for 20 years. The typical human lives to be about 100, but a kitsune lives another 100 years for every tail they possess, a maximum of 1000 years. After becoming enlightened, Kitsune are effectively immortal.<br />
+                <span class="feature">Alignment.</span>As kitsune are natural tricksters, they tend towards gentler forms of chaos.<br />
+                <span class="feature">Size.</span>A kitsune is usually between 4’11" and 6 feet. Your size is Medium.<br />
+                <span class="feature">Speed.</span>Your base walking speed is 30 feet.<br />
+                <span class="feature">Darkvision.</span>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br />
+                <span class="feature">Keen Senses.</span>Much like the foxes they resemble, kitsunes have heightened senses. You are proficient in the Perception skill.<br />
+                <span class="feature">Illusion Sensitivity.</span>Illusions are your lifeblood. You have played with them since you were a child. You have advantage on Wisdom(Perception) checks when attempting to see through the illusion.<br />
+                <span class="feature">Shapechanger.</span>As an action, you can transform your appearance or revert to your natural form. You can't duplicate the appearance of a creature you've never seen, and you revert to your natural form if you die.<br/>
+                You decide what you look like, including your height, weight, facial features, the sound of your voice, coloration, hair length, sex, and any other distinguishing characteristics. You can make yourself appear as a member of another race; you lose the flying speed granted by your wings trait if your current form does not have wings; otherwise, none of your game statistics change. You also can't appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this trait to become quadrupedal, for instance. Your clothing and other equipment don't change in appearance, size, or shape to match your new form, requiring you to keep a few extra outfits on hand to make the most compelling disguise possible.<br/>
+                Even to the most astute observers, your ruse is usually indiscernible. If you rouse suspicion, or if a wary creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection of your true nature.<br/>
+                <span class="feature">Silver Tongue.</span>You have proficiency with the Persuasion skill. If you spend 1 minute talking to someone who can understand what you say, you can make a Charisma (Persuasion) check contested by the creature's Wisdom (Insight) check. If you or your companions are fighting the creature, your check automatically fails. If your check succeeds, the target is magically charmed by you as long as it remains within 60 feet of you and for 1 minute thereafter.<br/>
+                <span class="feature">Fox Fire.</span>You gain the ability to cast produce flame as a cantrip (Charisma).<br />
+                <span class="feature">Languages.</span>You can speak, read, and write Common, and Sylvan.<br />
+            </p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="names" type="male">Alven, Amnon, Ander, Cedric, Flint, Gimble, Ivellios, Lindal, Mival, Patrin, Romero, Skamos, Soveliss, Warryn, Wellby</set>
+            <set name="names" type="female">Amber, Arveene, Bai, Criella, Diesa, Ellywick, Farideh, Jasmal, Kithri, Meriele, Minna, Xanaphia, Yua</set>
+            <set name="names" type="traditional">Ambergrass, Beetlesong, Cedarflower, Feathercloud, Frostwing, Goldspring, Honeystar, Jellybeam, Moondrop, Oakwind, Silverbell, Snowmist, Sugardust, Sundew, Willowkiss</set>
+            <set name="height" modifier="2d4">0'5"</set>
+            <set name="weight" modifier="1d4">0.5 lb.</set>
+        </setters>
+        <rules>
+            <stat name="charisma" value="2"/>
+            <select type="Ability Score Improvement" name="Ability Score Increase, Kitsune" supports="ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM" />
+            <grant type="Size" id="ID_SIZE_MEDIUM"/>
+            <stat name="innate speed" value="30" bonus="base"/>
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+            <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_KEEN_SENSES" />
+            <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_ILLUSION_SENSITIVITY" />
+            <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_SHAPECHANGER" />
+            <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_SILVER_TONGUE" />
+            <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_FOX_FIRE" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_LANGUAGE_SYLVAN" />
+        </rules>
+    </element>
+
+    <element name="Keen Senses" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_KEEN_SENSES">
+        <description>
+            <p>
+                You have proficiency in the Perception skill.
+            </p>
+        </description>
+        <sheet display="false">
+            <description>
+                You have proficiency in the Perception skill.
+            </description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+        </rules>
+    </element>
+    <element name="Illusion Sensitivity" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_ILLUSION_SENSITIVITY">
+        <description>
+            <p>
+                Illusions are your lifeblood. You have played with them since you were a child. You have advantage on Wisdom(Perception)
+                checks when attempting to see through the illusion.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                Illusions are your lifeblood. You have played with them since you were a child. You have advantage on Wisdom(Perception)
+                checks when attempting to see through the illusion.
+            </description>
+        </sheet>
+    </element>
+    <element name="Shapechanger" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_SHAPECHANGER">
+        <description>
+            <p>
+                As an action, you can transform your appearance or revert to your natural form. You can't duplicate the appearance of a creature
+                you've never seen, and you revert to your natural form if you die.<br/>
+                You decide what you look like, including your height, weight, facial features, the sound of your voice, coloration, hair length,
+                sex, and any other distinguishing characteristics. You can make yourself appear as a member of another race; you lose the flying speed
+                granted by your wings trait if your current form does not have wings; otherwise, none of your game statistics change. You also can't
+                appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this trait
+                to become quadrupedal, for instance. Your clothing and other equipment don't change in appearance, size, or shape to match your new
+                form, requiring you to keep a few extra outfits on hand to make the most compelling disguise possible.<br/>
+                Even to the most astute observers, your ruse is usually indiscernible. If you rouse suspicion, or if a wary creature suspects something
+                is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection of your true nature.
+            </p>
+        </description>
+        <sheet action="Action">
+            <description>
+                You can transform your appearance or revert to your natural form. You can't duplicate the appearance of a creature you've
+                never seen, and you revert to your natural form if you die. You decide what you look like entirely, even as a member of
+                another race, none of your game statistics change. You also can't appear as a creature of a different size than you, and
+                your basic shape stays the same, but your clothing and other equipment don't change in appearance.<br/>
+                If a creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection.
+            </description>
+        </sheet>
+    </element>
+    <element name="Silver Tongue" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_SILVER_TONGUE">
+        <description>
+            <p>
+                You have proficiency with the Persuasion skill. If you spend 1 minute talking to someone who can understand what you
+                say, you can make a Charisma (Persuasion) check contested by the creature's Wisdom (Insight) check. If you or your
+                companions are fighting the creature, your check automatically fails. If your check succeeds, the target is magically
+                charmed by you as long as it remains within 60 feet of you and for 1 minute thereafter.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                If you spend 1 minute talking to someone who can understand what you say, you can make a Charisma (Persuasion) check
+                contested by the creature's Wisdom (Insight) check. If you or your companions are fighting the creature, your check
+                automatically fails. If your check succeeds, the target is magically charmed by you as long as it remains within 60
+                feet of you and for 1 minute thereafter.
+            </description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION"/>
+        </rules>
+    </element>
+    <element name="Fox Fire" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_FOX_FIRE">
+        <description>
+            <p>
+                You gain the ability to cast produce flame as a cantrip (Charisma).
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You gain the ability to cast produce flame as a cantrip (Charisma).
+            </description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_PRODUCE_FLAME" />
+        </rules>
+    </element>
+</elements>

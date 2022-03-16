@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Kinith Marilith</name>
+        <description>-</description>
+        <author>Kinith</author>
+        <update version="0.0.1">
+            <file name="marilith.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/marilith.xml" />
+        </update>
+    </info>
+
+    <element name="Kinith Marilith" type="Race" source="Kinith" id="ID_RACE_KINITH_MARILITH">
+        <description>
+            <p class="flavor">
+                We tried to close the portal once the Fiends started pouring out of it, the Knights held the line against the
+                beasts while the cultist who summoned the creatures were being slaughtered by the frenzied beasts they sought
+                to control. I urgently looked through the spell book, hoping to find the command word that would close the portal,
+                to end the nightmare before they demons overran the village. The sound of the knight's combat was deafening, they
+                were keeping the Abyssal enemy at bay. Then, something else came through the portal. I didn't look up from the book,
+                my task was too urgent and at the same time, I didn't want to...because what I heard could drive any mortal to the
+                brink of insanity. It wasn't a fight anymore, it was a whirlwind of steel. My brave comrades bought me enough time
+                to close the portal, but the price was high, far too high. What had entered through that portal had reduced the
+                hardened knights to little more than piles of gore, even their plate mail could not stop the whirlwind of blades.
+                The ranks had been broken, and on occasion from the corner of my eye, I'd catch a glance of a serpent's tail before
+                it vanished. Hell itself had descended upon us, and when I uttered the phrase that closed the portal, something
+                terrifying dawned on me. I had just closed the only door that could return the creature back to its home...<br /><br />
+                — Unknown
+            </p>
+            <p class="flavor">
+                Terrible to behold, a marilith has the lower body of a great serpent and the upper torso of a humanoid female with six arms.
+                Wielding a wicked blade in each of its six hands, a marilith is a devastating foe that few can match in battle. These demons
+                possess keen minds and a finely honed sense of tactics, and they are able to lead and unite other demons in common cause.
+                Mariliths are often encountered as captains at the head of a demonic horde, where they embrace any opportunity to rush
+                headlong into battle.<br /><br />
+                - Monster Manual
+            </p>
+
+            <h4>Physical Description</h4>
+            <p>
+                Mariliths posses the commanding presence appropriate for the tacticians of demonic hordes. From the waist up, they
+                appear as humanoid women with striking beauty. Slit pupils framed by sharp facial features might be your first
+                indicator that they are not from this world - if you hadn’t already noticed the presence of six arms, each carrying
+                their own weapon, ready to eviscerate you. They are well aware of their beauty and flaunt it - often cladding their
+                torsos and arms in nothing but jewellery.
+            </p>
+            <p>
+                Around the waistline, their seemingly soft humanoid skin gives way to scales as they possess a long, serpentine
+                lower body that coils and winds behind them. Though typically brown or green in color, these scales may appear
+                in a plethora of colors. Their prehensile tails are thick and muscular, able to crush most men in their plate
+                and shatter bones with a single blow.
+            </p>
+
+            <h4>History</h4>
+            <p>
+                Most academics are aware of the fact that marilith are fiends, demons formed by the Abyss in its bid against the cosmos.
+                A lesser known fact is that demons are typically named after the first of their kin and the marilith are no exception
+                to this. When Marilith, first of her kind, was formed, it is said that the devilish armies of the Blood War were
+                pushed back as far as the lower reaches of the Styx. The demons, commanded by the storm of blades and gore that
+                was Marilith, employing new strategies that caught the devils off-guard time and time again.
+            </p>
+            <p>
+                This new threat to the fiends of the Nine Hell’s forced the archdevil Zariel, former angel and ruler of Avernus,
+                to take to the field as new legions of the Nine Hells boiled up from below to repel the invaders out of Avernus
+                and back to the juncture where the Styx enters the Hells. Here Marilith fought Zariel, whose martial prowess is
+                known throughout the cosmos, and as their blades clashed they each bled and from each drop of blood that Zariel
+                spilt, new mariliths formed. Eventually, Marilith and her kin were driven back. Those that remained were slain
+                to quench Zariels infernal wrath.
+            </p>
+            <p>
+                Having acquired a taste for the bloodshed in the frontlines of the Blood War and the blade of an archdevil,
+                Marilith and her kin took residence in one of the many layers of the abyss. There it is said her wounds are
+                ever bleeding, with each drop of blood forming new lesser versions of herself to fulfil the purpose that the
+                Abyss formed her for.
+            </p>
+
+            <h4>Society</h4>
+            <p>
+                Marilith rank high in the demonic hierarchy, often only second to the most powerful of demons and the lords of
+                the Abyss’s many layers. They are known to be formidable strategists, capable of accurately assessing the strengths
+                and weaknesses of an enemy to choose the right targets for itself and their minions accordingly. Their task as a
+                coordinator is not easy in the least given the chaotic nature of demons, but they are competent nonetheless.
+            </p>
+            <p>
+                Devils despise mariliths for their highly innovative and intelligent nature, which allows them to form complex
+                plans and tactics that are beyond the understanding of the hidebound, lawful devils who, in turn, struggle to
+                combat such unpredictable foes.
+            </p>
+            <p>
+                Marilith are as prideful and entitled as they are beautiful and as such, they rarely desire a company that
+                doesn’t consist of servants to dote on them. Outside of the abyss, they get along with other reptilian races
+                such as yuan-ti, kobolds, chromatic dragonborn and lizardfolk, many of whom see them as closer to their often
+                malignant deities than themselves.
+            </p>
+
+            <h4>Marilith Names</h4>
+            <p>
+                Marilith names are derived from the Abyssal language, often taking inspiration from phrases and words that they enjoy.
+            </p>
+            <ul class="unstyled">
+                <li><strong>Names:</strong> Byakala, Charsultketh, Jaranda, Kalistes, Kaliva, Lillianth, Morag, Mulvassys, Nethess, Reluhantis, Unhath, Vhissilka, Viractuth, Y’tossi, Yxunomei</li>
+                <li><strong>Inspirations:</strong> Awe, Blade, Blood, Conquest, Death, Grave, Final Hour, Glory, Power, Prowess, Reckoning, Sharp, Strike, Silence, Sword, Valor, War</li>
+            </ul>
+
+            <h4>MARILITH TRAITS</h4>
+            <p>
+                <span class="feature">Ability Score Increase.</span>Your Dexterity, Intelligence and Charisma scores each increase by 1.<br />
+                <span class="feature">Age.</span>Mariliths are fiends, demons formed rather than born and although they can, in a sense, mature and age mentally they are physically unaging.<br />
+                <span class="feature">Alignment.</span>Formed in the Abyss and living a life of conquest and warfare, mariliths tend towards chaotic evil. Unlike most demons, they are proud intelligent tacticians, as cruel as they are beautiful serving many a lording demon in their bid against the rest of the cosmos.<br />
+                <span class="feature">Size.</span>Mariliths stand between 8 and 9 feet tall, with their serpentine halve reaching about the same distance often being 18 feet long from the head to the tip of their tail. Your size is Medium.<br />
+                <span class="feature">Speed.</span>Your base walking speed is 40 feet.<br />
+                <span class="feature">Darkvision.</span>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br />
+                <span class="feature">Demon.</span>Your creature type is considered to be both fiend and humanoid<br />
+                <span class="feature">Multilimbed Prodigy.</span>You are gifted with superior martial prowess that is accented by your multilimbed body. You have six arms instead of two; these additional limbs can hold objects and wield weapons as normal. You have proficiency with the dagger, shortsword, scimitar, and longsword. Your arms get in each other's way at times; while wielding a two-handed weapon, you cannot benefit from a shield or wield a second two-handed weapon.<br />
+                <span class="feature">Poison Resistance.</span>You have advantage on saving throws against being poisoned, and you have resistance against poison damage.<br />
+                <span class="feature">Powerful Tail.</span>As an action, you can grapple or shove a creature within 10 feet of you with your tail. While grappling a creature this way your speed is reduced to 0.<br />
+                <span class="feature">Serpentine Build.</span>You count as one size larger when determining your carrying capacity and the weight you can push or drag. In addition, any climb that requires hands and feet is especially difficult for you because of your serpentine tail. When you make such a climb, each foot of movement costs you 4 extra feet, instead of the normal 1 extra foot.<br />
+                <span class="feature">Slither.</span>While you are prone, crawling costs 1 less foot of movement.<br />
+                <span class="feature">Languages.</span>You can speak, read, and write Common and Abyssal. To most, Abyssal is a dreadful language to hear let alone speak, that can range from bestial noises to seemingly arbitrary droning regardless of if the demon speaking it is a refined marilith or a lowly dretch.<br />
+            </p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="names" type="male">Byakala, Charsultketh, Jaranda, Kalistes, Kaliva, Lillianth, Morag, Mulvassys, Nethess, Reluhantis, Unhath, Vhissilka, Viractuth, Y’tossi, Yxunomei</set>
+            <set name="names" type="female">Byakala, Charsultketh, Jaranda, Kalistes, Kaliva, Lillianth, Morag, Mulvassys, Nethess, Reluhantis, Unhath, Vhissilka, Viractuth, Y’tossi, Yxunomei</set>
+            <set name="names" type="virtue">Awe, Blade, Blood, Conquest, Death, Grave, Final Hour, Glory, Power, Prowess, Reckoning, Sharp, Strike, Silence, Sword, Valor, War</set>
+            <set name="height" modifier="2d12">7'8"</set>
+            <set name="weight" modifier="2d6">450 lb.</set>
+        </setters>
+        <rules>
+            <stat name="dexterity" value="1"/>
+            <stat name="intelligence" value="1"/>
+            <stat name="charisma" value="1"/>
+            <grant type="Size" id="ID_SIZE_MEDIUM"/>
+            <stat name="innate speed" value="40" bonus="base"/>
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+            <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_DEMON" />
+            <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_MULTILIMBED_PRODIGY" />
+            <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_POISON_RESISTANCE" />
+            <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_POWERFUL_TAIL" />
+            <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_SERPENTINE_BUILD" />
+            <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_SLITHER" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_LANGUAGE_ABYSSAL" />
+        </rules>
+    </element>
+
+    <element name="Demon" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_DEMON">
+        <description>
+            <p>
+                Your creature type is considered to be both fiend and humanoid.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                Your creature type is considered to be both fiend and humanoid.
+            </description>
+        </sheet>
+    </element>
+    <element name="Multilimbed Prodigy" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_MULTILIMBED_PRODIGY">
+        <description>
+            <p>
+                You are gifted with superior martial prowess that is accented by your multilimbed body. You have six arms instead of two;
+                these additional limbs can hold objects and wield weapons as normal. You have proficiency with the dagger, shortsword,
+                scimitar, and longsword. Your arms get in each other's way at times; while wielding a two-handed weapon, you cannot
+                benefit from a shield or wield a second two-handed weapon.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You are gifted with superior martial prowess that is accented by your multilimbed body. You have six arms instead of two;
+                these additional limbs can hold objects and wield weapons as normal. You have proficiency with the dagger, shortsword,
+                scimitar, and longsword. Your arms get in each other's way at times; while wielding a two-handed weapon, you cannot
+                benefit from a shield or wield a second two-handed weapon.
+            </description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD"/>
+        </rules>
+    </element>
+    <element name="Poison Resistance" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_POISON_RESISTANCE">
+        <description>
+            <p>
+                You have advantage on saving throws against being poisoned, and you have resistance against poison damage.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You have advantage on saving throws against being poisoned, and you have resistance against poison damage.
+            </description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON"/>
+        </rules>
+    </element>
+    <element name="Powerful Tail" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_POWERFUL_TAIL">
+        <description>
+            <p>
+                As an action, you can grapple or shove a creature within 10 feet of you with your tail. While grappling a creature this way your speed is reduced to 0.
+            </p>
+        </description>
+        <sheet action="Action">
+            <description>
+                As an action, you can grapple or shove a creature within 10 feet of you with your tail. While grappling a creature this way your speed is reduced to 0.
+            </description>
+        </sheet>
+    </element>
+    <element name="Serpentine Build" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_SERPENTINE_BUILD">
+        <description>
+            <p>
+                You count as one size larger when determining your carrying capacity and the weight you can push or drag. In addition,
+                any climb that requires hands and feet is especially difficult for you because of your serpentine tail. When you make
+                such a climb, each foot of movement costs you 4 extra feet, instead of the normal 1 extra foot.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You count as one size larger when determining your carrying capacity and the weight you can push or drag. In addition,
+                any climb that requires hands and feet is especially difficult for you because of your serpentine tail. When you make
+                such a climb, each foot of movement costs you 4 extra feet, instead of the normal 1 extra foot.
+            </description>
+        </sheet>
+        <rules>
+            <grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+        </rules>
+    </element>
+    <element name="Slither" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_SLITHER">
+        <description>
+            <p>
+                While you are prone, crawling costs 1 less foot of movement.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                While you are prone, crawling costs 1 less foot of movement.
+            </description>
+        </sheet>
+    </element>
+</elements>

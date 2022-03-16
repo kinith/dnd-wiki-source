@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Your Content</name>
+		<update version="0.0.1">
+			<file name="kinith.index" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith.index" />
+		</update>
+	</info>
+	<files>
+		<!-- Sources -->
+		<file name="sources.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/sources.xml" />
+
+		<!-- Races -->
+		<file name="arachne.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/arachne.xml" />
+		<file name="kitsune.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/kitsune.xml" />
+		<file name="oni.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/oni.xml" />
+		<file name="marilith.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/marilith.xml" />
+		<file name="pixie.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/pixie.xml" />
+
+		<!-- Backgrounds -->
+		<file name="custom.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/backgrounds/custom.xml" />
+	</files>
+</index>
