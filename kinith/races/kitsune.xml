@@ -4,7 +4,7 @@
         <name>Kinith Kitsune</name>
         <description>-</description>
         <author>Kinith</author>
-        <update version="0.0.3">
+        <update version="0.0.4">
             <file name="kitsune.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/kitsune.xml" />
         </update>
     </info>
@@ -93,8 +93,6 @@
             <grant type="Size" id="ID_SIZE_MEDIUM"/>
             <stat name="innate speed" value="30" bonus="base"/>
             <grant type="Vision" id="ID_VISION_DARKVISION" />
-            <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_KEEN_SENSES" />
-            <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_ILLUSION_SENSITIVITY" />
             <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_SHAPECHANGER" />
             <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_SILVER_TONGUE" />
             <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_FOX_FIRE" />
@@ -103,35 +101,6 @@
         </rules>
     </element>
 
-    <element name="Keen Senses" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_KEEN_SENSES">
-        <description>
-            <p>
-                You have proficiency in the Perception skill.
-            </p>
-        </description>
-        <sheet display="false">
-            <description>
-                You have proficiency in the Perception skill.
-            </description>
-        </sheet>
-        <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
-        </rules>
-    </element>
-    <element name="Illusion Sensitivity" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_ILLUSION_SENSITIVITY">
-        <description>
-            <p>
-                Illusions are your lifeblood. You have played with them since you were a child. You have advantage on Wisdom (Perception)
-                checks when attempting to see through the illusion.
-            </p>
-        </description>
-        <sheet>
-            <description>
-                Illusions are your lifeblood. You have played with them since you were a child. You have advantage on Wisdom (Perception)
-                checks when attempting to see through the illusion.
-            </description>
-        </sheet>
-    </element>
     <element name="Shapechanger" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_SHAPECHANGER">
         <description>
             <p>

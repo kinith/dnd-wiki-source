@@ -4,7 +4,7 @@
         <name>Kinith Arachne</name>
         <description>-</description>
         <author>Kinith</author>
-        <update version="0.0.2">
+        <update version="0.0.3">
             <file name="arachne.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/arachne.xml" />
         </update>
     </info>
@@ -50,9 +50,9 @@
 
             <h4>ARACHNE TRAITS</h4>
             <p>
-                <span class="feature">Ability Score Increase.</span>Your Dexterity score increases by 2, and your Wisdom score increases by 1.<br />
-                <span class="feature">Age.</span>Arachne, much like spiders, mature quickly, becoming adults at the age of 2 or 3 and having lifespans comparable to humans'.<br />
-                <span class="feature">Alignment.</span>Arachne don't tend toward any particular alignment. The best and the worst are found among them.<br />
+                <span class="feature">Ability Score Increase.</span>Your Dexterity score increases by 2, and your Constitution or Charisma score increases by 1.<br />
+                <span class="feature">Age.</span>Arachne, much like spiders, mature quickly, becoming adults at the age of 2 or 3. Arachi typically live somewhat longer than their original race, concealing their aging as the signs begin to show.<br />
+                <span class="feature">Alignment.</span>Arachne don't tend towards chaotic evil, other alignments are not impossible but very rare.<br />
                 <span class="feature">Size.</span>Arachne can be up to 7-8 feet tall and almost as wide. Your size is Medium.<br />
                 <span class="feature">Speed.</span>Your base walking speed is 30 feet.<br />
                 <span class="feature">Darkvision.</span>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br />
@@ -69,7 +69,7 @@
         </setters>
         <rules>
             <stat name="dexterity" value="2"/>
-            <stat name="wisdom" value="1"/>
+            <select type="Ability Score Improvement" name="Ability Score Increase, Arachne" supports="ID_INTERNAL_ASI_CONSTITUTION|ID_INTERNAL_ASI_CHARISMA" />
             <grant type="Size" id="ID_SIZE_MEDIUM"/>
             <stat name="innate speed" value="30" bonus="base"/>
             <grant type="Vision" id="ID_VISION_DARKVISION" />
