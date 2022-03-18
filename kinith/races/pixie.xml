@@ -4,7 +4,7 @@
         <name>Kinith Pixie</name>
         <description>-</description>
         <author>Kinith</author>
-        <update version="0.0.4">
+        <update version="0.0.5">
             <file name="pixie.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/pixie.xml" />
         </update>
     </info>
@@ -164,7 +164,7 @@
         <sheet usage="1/Long Rest">
             <description>
                 Starting at 3rd level, you can cast the invisibility spell without needing a material component, choosing
-                yourself as the target. (1/long rest) Charisma
+                yourself as the target. Charisma
             </description>
         </sheet>
         <rules>
