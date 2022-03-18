@@ -4,7 +4,7 @@
         <name>Kinith Arachne</name>
         <description>-</description>
         <author>Kinith</author>
-        <update version="0.0.3">
+        <update version="0.0.4">
             <file name="arachne.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/arachne.xml" />
         </update>
     </info>
@@ -59,6 +59,7 @@
                 <span class="feature">Horrific.</span>You gain proficiency in Intimidation.<br />
                 <span class="feature">Monstrous Nature.</span>Your creature type is considered to be both humanoid and monstrosity.<br />
                 <span class="feature">Spider Walk.</span>You have a climb speed equal to your walking speed. You can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.<br />
+                <span class="feature">Poison Resistance.</span>You have advantage on saving throws against being poisoned, and you have resistance against poison damage.<br />
                 <span class="feature">Languages.</span>You can speak, read, and write Common and Undercommon.<br />
             </p>
         </description>
