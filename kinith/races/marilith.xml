@@ -4,7 +4,7 @@
         <name>Kinith Marilith</name>
         <description>-</description>
         <author>Kinith</author>
-        <update version="0.0.2">
+        <update version="0.0.3">
             <file name="marilith.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/marilith.xml" />
         </update>
     </info>
@@ -110,7 +110,11 @@
                 <span class="feature">Speed.</span>Your base walking speed is 40 feet.<br />
                 <span class="feature">Darkvision.</span>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br />
                 <span class="feature">Demon.</span>Your creature type is considered to be both fiend and humanoid<br />
-                <span class="feature">Multilimbed Prodigy.</span>You are gifted with superior martial prowess that is accented by your multilimbed body. You have six arms instead of two; these additional limbs can hold objects and wield weapons as normal. You have proficiency with the dagger, shortsword, scimitar, and longsword. Your arms get in each other's way at times; while wielding a two-handed weapon, you cannot benefit from a shield or wield a second two-handed weapon.<br />
+                <span class="feature">Multilimbed Prodigy.</span>
+                You are gifted with superior martial prowess that is accented by your multilimbed body. You have six arms instead of two;
+                these additional limbs can hold objects and wield weapons as normal. You have proficiency with the dagger, shortsword, scimitar, and longsword.
+                Your arms get in each other's way at times; while wielding a two-handed weapon, you cannot benefit from a shield or wield a second two-handed weapon.
+                When attacking with a two-handed weapon it is impossible to use your bonus action to make a second attack with a one-handed weapon.<br />
                 <span class="feature">Poison Resistance.</span>You have advantage on saving throws against being poisoned, and you have resistance against poison damage.<br />
                 <span class="feature">Powerful Tail.</span>As an action, you can grapple or shove a creature within 10 feet of you with your tail. While grappling a creature this way your speed is reduced to 0.<br />
                 <span class="feature">Serpentine Build.</span>You count as one size larger when determining your carrying capacity and the weight you can push or drag. In addition, any climb that requires hands and feet is especially difficult for you because of your serpentine tail. When you make such a climb, each foot of movement costs you 4 extra feet, instead of the normal 1 extra foot.<br />
@@ -160,17 +164,17 @@
         <description>
             <p>
                 You are gifted with superior martial prowess that is accented by your multilimbed body. You have six arms instead of two;
-                these additional limbs can hold objects and wield weapons as normal. You have proficiency with the dagger, shortsword,
-                scimitar, and longsword. Your arms get in each other's way at times; while wielding a two-handed weapon, you cannot
-                benefit from a shield or wield a second two-handed weapon.
+                these additional limbs can hold objects and wield weapons as normal. You have proficiency with the dagger, shortsword, scimitar, and longsword.
+                Your arms get in each other's way at times; while wielding a two-handed weapon, you cannot benefit from a shield or wield a second two-handed weapon.
+                When attacking with a two-handed weapon it is impossible to use your bonus action to make a second attack with a one-handed weapon.
             </p>
         </description>
         <sheet>
             <description>
                 You are gifted with superior martial prowess that is accented by your multilimbed body. You have six arms instead of two;
-                these additional limbs can hold objects and wield weapons as normal. You have proficiency with the dagger, shortsword,
-                scimitar, and longsword. Your arms get in each other's way at times; while wielding a two-handed weapon, you cannot
-                benefit from a shield or wield a second two-handed weapon.
+                these additional limbs can hold objects and wield weapons as normal. You have proficiency with the dagger, shortsword, scimitar, and longsword.
+                Your arms get in each other's way at times; while wielding a two-handed weapon, you cannot benefit from a shield or wield a second two-handed weapon.
+                When attacking with a two-handed weapon it is impossible to use your bonus action to make a second attack with a one-handed weapon.
             </description>
         </sheet>
         <rules>
