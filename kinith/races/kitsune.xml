@@ -4,7 +4,7 @@
         <name>Kinith Kitsune</name>
         <description>-</description>
         <author>Kinith</author>
-        <update version="0.0.5">
+        <update version="0.0.6">
             <file name="kitsune.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/kitsune.xml" />
         </update>
     </info>
@@ -69,6 +69,8 @@
                 <span class="feature">Size.</span>A kitsune is usually between 4’11" and 6 feet. Your size is Medium.<br />
                 <span class="feature">Speed.</span>Your base walking speed is 30 feet.<br />
                 <span class="feature">Darkvision.</span>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br />
+                <span class="feature">Keen Senses.</span>Much like the foxes they resemble, kitsunes have heightened senses. You are proficient in the Perception skill.<br />
+                <span class="feature">Illusion Sensitivity.</span>Illusions are your lifeblood. You have played with them since you were a child. You have advantage on Wisdom(Perception) checks when attempting to see through the illusion.<br />
                 <span class="feature">Shapechanger.</span>As an action, you can transform your appearance or revert to your natural form. You can't duplicate the appearance of a creature you've never seen, and you revert to your natural form if you die.<br/>
                 You decide what you look like, including your height, weight, facial features, the sound of your voice, coloration, hair length, sex, and any other distinguishing characteristics. You can make yourself appear as a member of another race; you lose the flying speed granted by your wings trait if your current form does not have wings; otherwise, none of your game statistics change. You also can't appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this trait to become quadrupedal, for instance. Your clothing and other equipment don't change in appearance, size, or shape to match your new form, requiring you to keep a few extra outfits on hand to make the most compelling disguise possible.<br/>
                 Even to the most astute observers, your ruse is usually indiscernible. If you rouse suspicion, or if a wary creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection of your true nature.<br/>
@@ -91,6 +93,8 @@
             <grant type="Size" id="ID_SIZE_MEDIUM"/>
             <stat name="innate speed" value="30" bonus="base"/>
             <grant type="Vision" id="ID_VISION_DARKVISION" />
+            <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_KEEN_SENSES" />
+            <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_ILLUSION_SENSITIVITY" />
             <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_SHAPECHANGER" />
             <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_SILVER_TONGUE" />
             <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_FOX_FIRE" />
@@ -99,6 +103,35 @@
         </rules>
     </element>
 
+    <element name="Keen Senses" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_KEEN_SENSES">
+        <description>
+            <p>
+                You have proficiency in the Perception skill.
+            </p>
+        </description>
+        <sheet display="false">
+            <description>
+                You have proficiency in the Perception skill.
+            </description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+        </rules>
+    </element>
+    <element name="Illusion Sensitivity" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_ILLUSION_SENSITIVITY">
+        <description>
+            <p>
+                Illusions are your lifeblood. You have played with them since you were a child. You have advantage on Wisdom (Perception)
+                checks when attempting to see through the illusion.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                Illusions are your lifeblood. You have played with them since you were a child. You have advantage on Wisdom (Perception)
+                checks when attempting to see through the illusion.
+            </description>
+        </sheet>
+    </element>
     <element name="Shapechanger" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_SHAPECHANGER">
         <description>
             <p>
