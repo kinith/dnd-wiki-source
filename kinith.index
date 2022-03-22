@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Your Content</name>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="kinith.index" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith.index" />
 		</update>
 	</info>
@@ -16,5 +16,8 @@
 		<file name="oni.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/oni.xml" />
 		<file name="marilith.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/marilith.xml" />
 		<file name="pixie.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/pixie.xml" />
+
+		<!-- Items -->
+		<file name="kinith-weapons.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/items/kinith-weapons.xml" />
 	</files>
 </index>

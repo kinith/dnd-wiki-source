@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Weapons</name>
+		<update version="0.0.1">
+			<file name="kinith-weapons.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/items/kinith-weapons.xml" />
+		</update>
+	</info>
+
+	<element name="Kinith Spear, finesse" type="Weapon" source="Kinith" id="ID_KINITH_WEAPON_SPEAR_FINESSE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SPEARS</supports>
+		<description>
+			<p>
+				A simple spear that trades the ability to hit a target in a distance for a more dexterity based close quarter weapon.
+			</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">1</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="piercing">1d6</set>
+			<set name="versatile">1d8</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR</set>
+		</setters>
+	</element>
+
+	<element name="Kinith Heavy Spear" type="Weapon" source="Kinith" id="ID_KINITH_WEAPON_HEAVY_SPEAR">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SPEARS</supports>
+		<description>
+			<p>
+				A heavy spear, used two handed to lunge into the enemy.
+			</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="piercing">2d6</set>
+			<set name="proficiency">ID_KINITH_PROFICIENCY_WEAPON_PROFICIENCY_HEAVY_SPEAR</set>
+		</setters>
+	</element>
+
+	<element name="Kinith Heavy Spear V2" type="Weapon" source="Kinith" id="ID_KINITH_WEAPON_HEAVY_SPEAR_V2">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_SPEARS</supports>
+		<description>
+			<p>
+				A heavy spear, used two handed to lunge into the enemy.
+			</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="piercing">1d12</set>
+			<set name="proficiency">ID_KINITH_PROFICIENCY_WEAPON_PROFICIENCY_HEAVY_SPEAR</set>
+		</setters>
+	</element>
+
+	<element name="Kinith Heavy Spear V3" type="Weapon" source="Kinith" id="ID_KINITH_WEAPON_HEAVY_SPEAR_V3">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SPEARS</supports>
+		<description>
+			<p>
+				A heavy spear, used to lunge into the enemy.
+			</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR</set>
+		</setters>
+	</element>
+
+	<element name="Weapon Proficiency (Heavy Spear)" type="Proficiency" source="Kinith" id="ID_KINITH_PROFICIENCY_WEAPON_PROFICIENCY_HEAVY_SPEAR">
+		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+	</element>
+
+	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
+		<rules>
+			<grant type="Proficiency" id="ID_KINITH_PROFICIENCY_WEAPON_PROFICIENCY_HEAVY_SPEAR" />
+		</rules>
+	</append>
+
+	<element name="Kinith Scythe" type="Weapon" source="Kinith" id="ID_KINITH_WEAPON_SCYTHE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+		<description>
+			<p>This weapon is inspired by the common farming implement used to cut swaths of grown hay, but it has a straight handle and a heavier blade. Despite its humble origins, the scythe is recognized as a symbol of death in many cultures because of its use in reaping. Rather than being too heavy for most smaller creatures, the scythe is too long for Small sized creatures to wield effectively. </p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">20</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="slashing">3d4</set>
+			<set name="proficiency">ID_WIKI_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE</set>
+		</setters>
+	</element>
+
+	<element name="Kinith Scythe V2" type="Weapon" source="Kinith" id="ID_KINITH_WEAPON_SCYTHE_V2">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+		<description>
+			<p>This weapon is inspired by the common farming implement used to cut swaths of grown hay, but it has a straight handle and a heavier blade. Despite its humble origins, the scythe is recognized as a symbol of death in many cultures because of its use in reaping. Rather than being too heavy for most smaller creatures, the scythe is too long for Small sized creatures to wield effectively. </p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">20</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="slashing">2d6</set>
+			<set name="proficiency">ID_WIKI_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE</set>
+		</setters>
+	</element>
+
+	<element name="Kinith Scythe V3" type="Weapon" source="Kinith" id="ID_KINITH_WEAPON_SCYTHE_V3">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+		<description>
+			<p>This weapon is inspired by the common farming implement used to cut swaths of grown hay, but it has a straight handle and a heavier blade. Despite its humble origins, the scythe is recognized as a symbol of death in many cultures because of its use in reaping. Rather than being too heavy for most smaller creatures, the scythe is too long for Small sized creatures to wield effectively. </p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">20</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="slashing">1d12</set>
+			<set name="proficiency">ID_WIKI_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE</set>
+		</setters>
+	</element>
+
+	<element name="Weapon Proficiency (Scythe)" type="Proficiency" source="Kinith" id="ID_KINITH_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE">
+		<supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+	</element>
+
+	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE_WEAPONS">
+		<rules>
+			<grant type="Proficiency" id="ID_KINITH_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE" />
+		</rules>
+	</append>
+</elements>
