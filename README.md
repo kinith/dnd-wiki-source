@@ -14,3 +14,7 @@ All additions have the Kinith prefix for easier identification.
 - Marilith
 - Oni
 - Pixie
+
+## Added Weapons
+- 5 Spear prototypes
+- 3 Scythe prototypes
