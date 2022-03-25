@@ -4,7 +4,7 @@
         <name>Kinith Kitsune</name>
         <description>-</description>
         <author>Kinith</author>
-        <update version="0.0.6">
+        <update version="0.0.7">
             <file name="kitsune.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/kitsune.xml" />
         </update>
     </info>
@@ -74,7 +74,6 @@
                 <span class="feature">Shapechanger.</span>As an action, you can transform your appearance or revert to your natural form. You can't duplicate the appearance of a creature you've never seen, and you revert to your natural form if you die.<br/>
                 You decide what you look like, including your height, weight, facial features, the sound of your voice, coloration, hair length, sex, and any other distinguishing characteristics. You can make yourself appear as a member of another race; you lose the flying speed granted by your wings trait if your current form does not have wings; otherwise, none of your game statistics change. You also can't appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this trait to become quadrupedal, for instance. Your clothing and other equipment don't change in appearance, size, or shape to match your new form, requiring you to keep a few extra outfits on hand to make the most compelling disguise possible.<br/>
                 Even to the most astute observers, your ruse is usually indiscernible. If you rouse suspicion, or if a wary creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection of your true nature.<br/>
-                <span class="feature">Silver Tongue.</span>You have proficiency with the Persuasion skill. If you spend 1 minute talking to someone who can understand what you say, you can make a Charisma (Persuasion) check contested by the creature's Wisdom (Insight) check. If you or your companions are fighting the creature, your check automatically fails. If your check succeeds, the target is magically charmed by you as long as it remains within 60 feet of you and for 1 minute thereafter.<br/>
                 <span class="feature">Fox Fire.</span>You gain the ability to cast produce flame as a cantrip (Charisma).<br />
                 <span class="feature">Languages.</span>You can speak, read, and write Common, and Sylvan.<br />
             </p>
@@ -96,7 +95,6 @@
             <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_KEEN_SENSES" />
             <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_ILLUSION_SENSITIVITY" />
             <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_SHAPECHANGER" />
-            <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_SILVER_TONGUE" />
             <grant type="Racial Trait" id="ID_KINITH_RACIAL_TRAIT_FOX_FIRE" />
             <grant type="Language" id="ID_LANGUAGE_COMMON" />
             <grant type="Language" id="ID_LANGUAGE_SYLVAN" />
@@ -156,27 +154,6 @@
                 If a creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection.
             </description>
         </sheet>
-    </element>
-    <element name="Silver Tongue" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_SILVER_TONGUE">
-        <description>
-            <p>
-                You have proficiency with the Persuasion skill. If you spend 1 minute talking to someone who can understand what you
-                say, you can make a Charisma (Persuasion) check contested by the creature's Wisdom (Insight) check. If you or your
-                companions are fighting the creature, your check automatically fails. If your check succeeds, the target is magically
-                charmed by you as long as it remains within 60 feet of you and for 1 minute thereafter.
-            </p>
-        </description>
-        <sheet>
-            <description>
-                If you spend 1 minute talking to someone who can understand what you say, you can make a Charisma (Persuasion) check
-                contested by the creature's Wisdom (Insight) check. If you or your companions are fighting the creature, your check
-                automatically fails. If your check succeeds, the target is magically charmed by you as long as it remains within 60
-                feet of you and for 1 minute thereafter.
-            </description>
-        </sheet>
-        <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION"/>
-        </rules>
     </element>
     <element name="Fox Fire" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_FOX_FIRE">
         <description>

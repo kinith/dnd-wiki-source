@@ -4,7 +4,7 @@
         <name>Kinith Pixie</name>
         <description>-</description>
         <author>Kinith</author>
-        <update version="0.0.5">
+        <update version="0.0.6">
             <file name="pixie.xml" url="https://raw.githubusercontent.com/kinith/kinith-aurora-source/master/kinith/races/pixie.xml" />
         </update>
     </info>
@@ -97,7 +97,7 @@
                 <span class="feature">Darkvision.</span>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br />
                 <span class="feature">Fey Ancestry.</span>You have advantage on saving throws against being charmed, and magic can’t put you to sleep.<br />
                 <span class="feature">Nature's Child.</span>The children of the Feywild have a natural gift for the outside world. You are proficient in the Nature skill.<br />
-                <span class="feature">Invisibility.</span>Starting at 3rd level, you can cast the invisibility spell without needing a material component, choosing yourself as the target. (1/long rest) Charisma<br />
+                <span class="feature">Invisibility.</span>Starting at 3rd level, you can cast the invisibility spell without needing a material component or spell slot, choosing yourself as the target. (1/long rest) Charisma<br />
                 <span class="feature">Wing Regrowth.</span>If your wings are cut, removed or injured, you regrow them at the end of a long rest.<br />
                 <span class="feature">Languages.</span>You can speak, read, and write Common, Elvish, and Sylvan.<br />
             </p>
@@ -157,13 +157,13 @@
     <element name="Invisibility" type="Racial Trait" source="" id="ID_KINITH_RACIAL_TRAIT_INVISIBILITY">
         <description>
             <p>
-                Starting at 3rd level, you can cast the invisibility spell without needing a material component, choosing
+                Starting at 3rd level, you can cast the invisibility spell without needing a material component or spell slot, choosing
                 yourself as the target. (1/long rest) Charisma
             </p>
         </description>
         <sheet usage="1/Long Rest">
             <description>
-                Starting at 3rd level, you can cast the invisibility spell without needing a material component, choosing
+                Starting at 3rd level, you can cast the invisibility spell without needing a material component or spell slot, choosing
                 yourself as the target. Charisma
             </description>
         </sheet>
